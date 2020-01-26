@@ -4,27 +4,27 @@
     "type": "package",
     "repositories": [
         {
-            "type":"vcs",
-            "url":"git@bitbucket.org:elegantmedia/formation.git"
+            "type":"git",
+            "url":"https://github.com/emedia1/formation.git"
         },
         {
-            "type":"vcs",
-            "url":"git@bitbucket.org:elegantmedia/quickdata-laravel.git"
+            "type":"git",
+            "url":"https://github.com/emedia1/quickdata-laravel.git"
         },
         {
-            "type": "vcs",
-            "url": "git@bitbucket.org:elegantmedia/laravel-helpers.git"
+            "type": "git",
+            "url": "https://github.com/emedia1/laravel-helpers.git"
         },
         {
-            "type": "vcs",
-            "url": "git@bitbucket.org:elegantmedia/php-helpers.git"
+            "type": "git",
+            "url": "https://github.com/emedia1/php-helpers.git"
         }
     ],
     "require": {
         "illuminate/database": "^5.7|^6.0",
         "illuminate/support": "^5.7|^6.0",
-        "emedia/formation": "~0.0|~0.2",
-        "emedia/quick-data-laravel": "~2.0|~3.0"
+        "emedia/formation": "1.0",
+        "emedia/quick-data-laravel": "1.0"
     },
     "extra": {
         "laravel": {
